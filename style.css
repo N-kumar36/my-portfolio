@@ -1,3 +1,6 @@
+/* =======================
+   GLOBAL RESET
+======================= */
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +17,9 @@ body {
   color: #e5e7eb;
 }
 
-/* NAVBAR */
+/* =======================
+   NAVBAR
+======================= */
 .navbar {
   margin: 20px;
   padding: 18px 40px;
@@ -35,6 +40,7 @@ body {
 .nav-links a {
   text-decoration: none;
   color: #9ca3af;
+  transition: 0.3s;
 }
 
 .nav-links a:hover,
@@ -51,7 +57,17 @@ body {
   font-weight: 600;
 }
 
-/* HERO */
+/* MOBILE MENU ICON */
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+  color: #7cf5c9;
+}
+
+/* =======================
+   HERO SECTION
+======================= */
 .hero-section {
   padding: 20px;
 }
@@ -62,7 +78,9 @@ body {
   padding: 60px;
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 30px 80px rgba(0, 0, 0, .5);
+  align-items: center;
+  gap: 40px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
 }
 
 .hello {
@@ -80,6 +98,7 @@ body {
 .sub-text {
   color: #9ca3af;
   margin: 20px 0;
+  line-height: 1.6;
 }
 
 .hero-buttons {
@@ -112,17 +131,18 @@ body {
   background: rgba(255, 255, 255, 0.05);
 }
 
+/* HERO IMAGE */
 .hero-image .circle {
   width: 260px;
   height: 260px;
   border-radius: 50%;
   border: 4px solid #7cf5c9;
   padding: 10px;
-  box-shadow: 0 0 40px rgba(124, 245, 201, .6);
   display: flex;
   justify-content: center;
   align-items: center;
   background: linear-gradient(145deg, #0f1720, #05070a);
+  box-shadow: 0 0 40px rgba(124, 245, 201, 0.6);
 }
 
 .hero-image img {
@@ -130,12 +150,12 @@ body {
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  filter: drop-shadow(0 0 8px rgba(124, 245, 201, 0.812));
+  filter: drop-shadow(0 0 8px rgba(124, 245, 201, 0.8));
 }
 
-
-
-/* SKILLS */
+/* =======================
+   SKILLS
+======================= */
 .skills-section {
   padding: 60px;
 }
@@ -153,7 +173,9 @@ body {
   text-align: center;
 }
 
-/* STATS */
+/* =======================
+   STATS
+======================= */
 .stats {
   display: flex;
   gap: 30px;
@@ -169,9 +191,12 @@ body {
 
 .stat-card h3 {
   color: #7cf5c9;
+  font-size: 34px;
 }
 
-/* PROJECTS */
+/* =======================
+   PROJECTS
+======================= */
 .projects-section {
   padding: 60px;
 }
@@ -198,8 +223,8 @@ body {
 }
 
 .project-card.featured {
-  border: 1px solid rgba(124, 245, 201, .35);
-  box-shadow: 0 25px 60px rgba(124, 245, 201, .18);
+  border: 1px solid rgba(124, 245, 201, 0.35);
+  box-shadow: 0 25px 60px rgba(124, 245, 201, 0.18);
 }
 
 .project-btn {
@@ -213,6 +238,9 @@ body {
   font-weight: 600;
 }
 
+/* =======================
+   FOOTER
+======================= */
 .footer {
   background: linear-gradient(135deg, #05070a, #0b0f14);
   padding: 50px 20px;
@@ -240,7 +268,7 @@ body {
 }
 
 .social-links a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   padding: 8px 14px;
   border: 1px solid rgba(124, 245, 201, 0.3);
@@ -260,20 +288,75 @@ body {
   color: #8a98a6;
 }
 
+/* =======================
+   RESPONSIVE
+======================= */
+@media (max-width: 768px) {
 
-/* RESPONSIVE */
-@media (max-width: 900px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    width: 100%;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 16px;
+    padding: 20px;
+    display: none;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .hire-btn {
+    width: 100%;
+    text-align: center;
+  }
+
   .hero-card {
     flex-direction: column;
     text-align: center;
+    padding: 35px 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 30px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-image {
+    margin-top: 30px;
+  }
+
+  .hero-image .circle {
+    width: 200px;
+    height: 200px;
+  }
+
+  .skills-section,
+  .projects-section,
+  .stats {
+    padding: 40px 20px;
   }
 
   .stats {
     flex-direction: column;
   }
+}
 
-  .navbar {
-    flex-wrap: wrap;
-    gap: 15px;
+@media (max-width: 600px) {
+  .footer h2 {
+    font-size: 22px;
+  }
+
+  .social-links a {
+    font-size: 0.85rem;
+    padding: 6px 12px;
   }
 }

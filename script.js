@@ -18,3 +18,12 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+
+
+
+const menuToggle = document.getElementById("menuToggle");
+const navLinksContainer = document.querySelector(".nav-links");
+
+menuToggle.addEventListener("click", () => {
+  navLinksContainer.classList.toggle("show");
+});
