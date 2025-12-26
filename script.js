@@ -26,4 +26,14 @@ const navLinksContainer = document.querySelector(".nav-links");
 
 menuToggle.addEventListener("click", () => {
   navLinksContainer.classList.toggle("show");
+  menuToggle.classList.toggle("active");
 });
+
+/* auto close menu when clicking a link */
+navLinksContainer.querySelectorAll("a").forEach(link => {
+  link.addEventListener("click", () => {
+    navLinksContainer.classList.remove("show");
+    menuToggle.classList.remove("active");
+  });
+});
+
