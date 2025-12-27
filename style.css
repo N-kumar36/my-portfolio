@@ -399,6 +399,7 @@ body {
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
+    filter: drop-shadow(0 0 7px rgba(124, 245, 201, 0.8));
   }
 
 
