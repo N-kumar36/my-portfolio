@@ -157,6 +157,7 @@ body {
   justify-content: center;
   align-items: center;
   background: linear-gradient(145deg, #0f1720, #05070a);
+  /* background-color: #4c4c4c; */
   box-shadow: 0 0 40px rgba(124, 245, 201, 0.6);
 }
 
@@ -165,7 +166,7 @@ body {
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  filter: drop-shadow(0 0 8px rgba(124, 245, 201, 0.8));
+  filter: drop-shadow(0 0 4px rgba(124, 245, 201, 0.488));
 }
 
 
@@ -399,7 +400,7 @@ body {
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-    filter: drop-shadow(0 0 7px rgba(124, 245, 201, 0.8));
+    filter: drop-shadow(0 0 4px rgba(124, 245, 201, 0.488));
   }
 
 
