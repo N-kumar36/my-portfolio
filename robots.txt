@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nityakumar.netlify.app/sitemap.xml
+Sitemap: https://nityakumar.web.app/app/sitemap.xml
