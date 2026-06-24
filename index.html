@@ -6,55 +6,98 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="googlebot" content="index,follow,max-image-preview:large" />
+  <!-- Paste Google Search Console verification tag right here -->
+  <meta name="google-site-verification" content="9J_DXIYx52FZ6jw2CDv3tAeJuQnI9NS9K4lcgn7utNI" />
 
-  <title>Nitya Kumar Barman | Software Developer & Web Engineer</title>
+  <title>Nitya Kumar Barman | Software Engineer & Product Builder</title>
+
+  <!-- Canonical URL (Points exclusively to your Firebase domain) -->
+  <link rel="canonical" href="https://nityakumar.web.app/" />
 
   <link rel="shortcut icon" href="./assets/Gemini_Generated_Image_rw1lgurw1lgurw1l copy.png" type="image/x-icon">
-
-  <meta name="description"
-    content="Portfolio of Nitya Kumar Barman, Software Developer specializing in React, Next.js, Node.js REST APIs, JWT, and WebRTC." />
-
-  <meta name="keywords"
-    content="Nitya Kumar Barman, Software Developer, REST API, JWT Authentication, Node.js, Express.js, React, Next.js, WebRTC, Firebase, MongoDB" />
-
-  <meta name="author" content="Nitya Kumar Barman" />
-  <meta name="theme-color" content="#0c0f14" />
   <link rel="stylesheet" href="./style.css">
 
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Nitya Kumar Barman | Software Engineer & Product Builder" />
+  <meta name="description"
+    content="Portfolio of Nitya Kumar Barman, a Software Developer and Computer Science student at Kazi Nazrul University specializing in React, Next.js, Flutter, and Node.js." />
+  <meta name="keywords"
+    content="Nitya Kumar Barman, nityakumar.web.app, Kazi Nazrul University, KNU, Cooch Behar Polytechnic, Software Developer Asansol, Computer Science Student, REST API, JWT Authentication, Node.js, Express.js, React, Next.js, WebRTC, Firebase, MongoDB, MySql, Flutter Developer" />
+  <meta name="author" content="Nitya Kumar Barman" />
+  <meta name="theme-color" content="#0c0f14" />
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://nityakumar.web.app/" />
+  <meta property="og:title" content="Nitya Kumar Barman | Software Engineer & Product Builder" />
+  <meta property="og:description"
+    content="Computer Science student at Kazi Nazrul University & Full-Stack Developer building scalable web and mobile ecosystems." />
+  <meta property="og:image" content="https://nityakumar.web.app/assets/1767374857126.png" />
+
+  <!-- Twitter Card -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://nityakumar.web.app/" />
+  <meta property="twitter:title" content="Nitya Kumar Barman | Software Engineer & Product Builder" />
+  <meta property="twitter:description"
+    content="Computer Science student at Kazi Nazrul University & Full-Stack Developer building scalable web and mobile ecosystems." />
+  <meta property="twitter:image" content="https://nityakumar.web.app/assets/1767374857126.png" />
+
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
 
+  <!-- Advanced Structured Data (SEO Booster) -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Nitya Kumar Barman",
-      "url": "https://nityakumar.netlify.app/",
+      "url": "https://nityakumar.web.app/",
       "jobTitle": "Software Developer",
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Kazi Nazrul University",
+          "alternateName": "KNU"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "Cooch Behar Polytechnic"
+        }
+      ],
       "knowsAbout": [
+        "Computer Science",
         "React",
         "Next.js",
+        "Flutter",
         "Node.js REST API",
         "JWT Authentication",
         "Express.js",
         "WebRTC",
         "Firebase",
-        "MongoDB"
+        "MongoDB",
+        "MySql"
       ]
     }
   </script>
 
   <style>
-    .nav-link.active { color: #7cf5c9 !important; }
-    html { scroll-behavior: smooth; }
+    .nav-link.active {
+      color: #7cf5c9 !important;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
   </style>
 </head>
 
 <body class="bg-[#0c0f14] text-[#e5e7eb] font-sans selection:bg-[#7cf5c9] selection:text-black">
 
-  <nav class="m-5 px-5 py-4 md:px-10 bg-white/5 rounded-[20px] backdrop-blur-md flex justify-between items-center sticky top-5 z-50 border border-white/5">
+  <nav
+    class="m-5 px-5 py-4 md:px-10 bg-white/5 rounded-[20px] backdrop-blur-md flex justify-between items-center sticky top-5 z-50 border border-white/5 max-w-7xl lg:mx-auto">
     <div class="text-2xl font-bold tracking-tighter">Nitya.</div>
 
-    <ul id="navLinks" class="hidden md:flex items-center gap-8  list-none ">
+    <ul id="navLinks" class="hidden md:flex items-center gap-8 list-none">
       <li><a href="#home" class="nav-link text-[#7cf5c9] transition-colors">Home</a></li>
       <li><a href="#about" class="nav-link text-gray-400 hover:text-[#7cf5c9] transition-colors">About</a></li>
       <li><a href="#skills" class="nav-link text-gray-400 hover:text-[#7cf5c9] transition-colors">Skills</a></li>
@@ -64,7 +107,8 @@
 
     <div class="flex items-center gap-4">
       <a href="https://wa.me/919064394702" target="_blank"
-        class="bg-[#7cf5c9] text-black px-5 py-2 font-semibold hover:opacity-90 transition-all rounded-[14px]">Hire Me</a>
+        class="bg-[#7cf5c9] text-black px-5 py-2 font-semibold hover:opacity-90 transition-all rounded-[14px]">Hire
+        Me</a>
 
       <button id="menuToggle" class="md:hidden text-2xl text-[#7cf5c9] focus:outline-none">
         <span class="open-icon">☰</span>
@@ -72,118 +116,238 @@
     </div>
   </nav>
 
-  <section id="home" class="p-5">
-    <div class="bg-gradient-to-br from-[#161a21] to-[#0f1218] rounded-[30px] p-8 md:p-15 flex flex-col md:flex-row justify-between items-center gap-10 shadow-[0_30px_80px_rgba(0,0,0,0.5)]">
+  <main class="max-w-7xl mx-auto w-full">
 
-      <div class="flex-1 order-2 md:order-1">
-        <p class="text-[#7cf5c9] mb-2 font-medium">Hello.</p>
-        <h1 class="text-4xl md:text-5xl font-bold leading-tight">
-          I’m <span class="text-[#7cf5c9]">Nitya Kumar</span><br>Software Developer
-        </h1>
-        <p class="text-gray-400 my-5 leading-relaxed max-w-lg">
-          CSE student at KNU. I build secure full-stack applications specializing in <b>Node.js REST APIs</b> and <b>JWT-based Authentication</b>.
-        </p>
+    <!-- Home Section -->
+    <section id="home" class="p-5">
+      <div
+        class="bg-gradient-to-br from-[#161a21] to-[#0f1218] rounded-[30px] p-8 md:p-15 flex flex-col md:flex-row justify-between items-center gap-10 shadow-[0_30px_80px_rgba(0,0,0,0.5)]">
 
-        <div class="flex flex-col sm:flex-row gap-4 mb-8">
-          <a href="#projects" class="bg-[#7cf5c9] text-black px-6 py-2.5 rounded-[14px] font-semibold text-center hover:shadow-[0_0_20px_rgba(124,245,201,0.4)] transition-all">View Projects</a>
-          <a href="./Resume NKB.pdf" download="Resume_Nitya_Kumar_Barman.pdf" class="border border-[#7cf5c9] text-[#7cf5c9] px-6 py-2.5 rounded-[14px] font-semibold text-center hover:bg-[#7cf5c9]/10 transition-all">My Resume</a>
+        <div class="flex-1 order-2 md:order-1">
+          <p class="text-[#7cf5c9] mb-2 font-medium">Hello.</p>
+          <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+            I’m <span class="text-[#7cf5c9]">Nitya Kumar</span><br>Software Developer
+          </h1>
+          <p class="text-gray-400 my-5 leading-relaxed max-w-lg">
+            Computer Science student at <b>KNU</b>. Focused on building high-performance web and mobile solutions with
+            <b>Node.js</b>, secure <b>JWT-based APIs</b>, and dynamic frontends.
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-4 mb-8">
+            <a href="#projects"
+              class="bg-[#7cf5c9] text-black px-6 py-2.5 rounded-[14px] font-semibold text-center hover:shadow-[0_0_20px_rgba(124,245,201,0.4)] transition-all">View
+              Projects</a>
+            <a href="./Resume NKB.pdf" download="Resume_Nitya_Kumar_Barman.pdf"
+              class="border border-[#7cf5c9] text-[#7cf5c9] px-6 py-2.5 rounded-[14px] font-semibold text-center hover:bg-[#7cf5c9]/10 transition-all">My
+              Resume</a>
+          </div>
+
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-white/5 px-3.5 py-1.5 rounded-xl text-xs border border-white/5 text-gray-300">Next.js</span>
+            <span class="bg-white/5 px-3.5 py-1.5 rounded-xl text-xs border border-white/5 text-gray-300">React</span>
+            <span class="bg-white/5 px-3.5 py-1.5 rounded-xl text-xs border border-white/5 text-gray-300">Flutter</span>
+            <span class="bg-white/5 px-3.5 py-1.5 rounded-xl text-xs border border-white/5 text-gray-300">Dart</span>
+            <span class="bg-white/5 px-3.5 py-1.5 rounded-xl text-xs border border-white/5 text-gray-300">Node.js</span>
+            <span class="bg-white/5 px-3.5 py-1.5 rounded-xl text-xs border border-white/5 text-gray-300">Express</span>
+            <span class="bg-white/5 px-3.5 py-1.5 rounded-xl text-xs border border-white/5 text-gray-300">REST
+              API</span>
+            <span class="bg-white/5 px-3.5 py-1.5 rounded-xl text-xs border border-white/5 text-gray-300">JWT</span>
+            <span class="bg-white/5 px-3.5 py-1.5 rounded-xl text-xs border border-white/5 text-gray-300">WebRTC</span>
+            <span class="bg-white/5 px-3.5 py-1.5 rounded-xl text-xs border border-white/5 text-gray-300">MongoDB</span>
+            <span
+              class="bg-white/5 px-3.5 py-1.5 rounded-xl text-xs border border-white/5 text-gray-300">Firebase</span>
+            <span class="bg-white/5 px-3.5 py-1.5 rounded-xl text-xs border border-white/5 text-gray-300">MySql</span>
+          </div>
         </div>
 
-        <div class="flex flex-wrap gap-2">
-          <span class="bg-white/5 px-3.5 py-1.5 rounded-xl text-xs">Node.js</span>
-          <span class="bg-white/5 px-3.5 py-1.5 rounded-xl text-xs">REST API</span>
-          <span class="bg-white/5 px-3.5 py-1.5 rounded-xl text-xs">JWT</span>
-          <span class="bg-white/5 px-3.5 py-1.5 rounded-xl text-xs">Next.js</span>
-          <span class="bg-white/5 px-3.5 py-1.5 rounded-xl text-xs">Firebase</span>
-          <span class="bg-white/5 px-3.5 py-1.5 rounded-xl text-xs">Express</span>
+        <div class="order-1 md:order-2">
+          <div
+            class="w-56 h-56 md:w-64 md:h-64 rounded-full border-4 border-[#7cf5c9] p-2 bg-gradient-to-br from-[#0f1720] to-[#05070a] shadow-[0_0_40px_rgba(124,245,201,0.4)] flex justify-center items-center">
+            <img src="assets/1767374857126.png" alt="Profile" class="w-full h-full rounded-full object-cover">
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="order-1 md:order-2">
-        <div class="w-56 h-56 md:w-64 md:h-64 rounded-full border-4 border-[#7cf5c9] p-2 bg-gradient-to-br from-[#0f1720] to-[#05070a] shadow-[0_0_40px_rgba(124,245,201,0.4)] flex justify-center items-center">
-          <img src="assets/1767374857126.png" alt="Profile" class="w-full h-full rounded-full object-cover">
+    <!-- About Section -->
+    <section id="about" class="p-5">
+      <div
+        class="bg-gradient-to-br from-[#161a21] to-[#0f1218] rounded-[30px] p-8 md:p-12 shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
+        <h2 class="text-3xl font-bold mb-8 text-white">About Me</h2>
+        <div class="space-y-6 text-gray-400 leading-relaxed text-lg max-w-3xl">
+          <p>
+            I'm <strong class="text-[#7cf5c9]">Nitya Kumar Barman</strong>, a passionate Computer Science & Engineering
+            student and Software Developer based in West Bengal.
+          </p>
+          <p>
+            I specialize in building complete, end-to-end applications. On the backend, I have a deep focus on
+            <b>Backend Engineering</b>—designing scalable <b>RESTful Architectures</b>, orchestrating real-time
+            networking with <b>WebRTC</b>, and implementing airtight <b>Token-based Authentication (JWT)</b>.
+          </p>
+          <p>
+            On the client side, I bridge the gap between platforms by creating high-performance web interfaces with
+            <b>React and Next.js</b>, alongside seamless cross-platform mobile apps using <b>Flutter and Dart</b>. I
+            love turning complex logic into smooth, secure user experiences.
+          </p>
+
+          <div class="pt-4 flex flex-wrap gap-4">
+            <a href="#projects"
+              class="bg-[#7cf5c9] hover:bg-[#62dbb0] text-black px-6 py-2.5 rounded-[14px] font-semibold transition-colors duration-200">
+              View My Work
+            </a>
+            <a href="#contact"
+              class="border border-white/20 hover:border-white/40 text-white px-6 py-2.5 rounded-[14px] font-semibold transition-colors duration-200">
+              Let's Talk
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="about" class="p-5">
-    <div class="bg-gradient-to-br from-[#161a21] to-[#0f1218] rounded-[30px] p-8 md:p-12">
-      <h2 class="text-3xl font-bold mb-8">About Me</h2>
-      <div class="space-y-5 text-gray-400 leading-relaxed text-lg">
-        <p>I'm <strong class="text-[#7cf5c9]">Nitya Kumar Barman</strong>, a Software Developer at <strong class="text-white">KNU</strong>.</p>
-        <p>I specialize in the MERN stack, with a deep focus on <b>Backend Engineering</b>. I design scalable <b>RESTful Architectures</b> and implement secure <b>Token-based Authentication (JWT)</b> to ensure data integrity and user security.</p>
-        <div class="pt-4">
-          <a href="#projects" class="bg-[#7cf5c9] text-black px-6 py-2.5 rounded-[14px] font-semibold">View My Work</a>
+    <!-- Skills Section -->
+    <section id="skills" class="p-5 md:p-10">
+      <h2 class="text-3xl font-bold mb-10 pl-2">Technical Mastery</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
+        <!-- Frontend & UI -->
+        <div
+          class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 hover:text-white transition-all text-gray-300 font-medium duration-300">
+          Next.js</div>
+        <div
+          class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 hover:text-white transition-all text-gray-300 font-medium duration-300">
+          React</div>
+        <div
+          class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 hover:text-white transition-all text-gray-300 font-medium duration-300">
+          Tailwind CSS</div>
+
+        <!-- Mobile Ecosystem -->
+        <div
+          class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 hover:text-white transition-all text-gray-300 font-medium duration-300">
+          Flutter</div>
+        <div
+          class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 hover:text-white transition-all text-gray-300 font-medium duration-300">
+          Dart</div>
+
+        <!-- Backend & Real-Time -->
+        <div
+          class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 hover:text-white transition-all text-gray-300 font-medium duration-300">
+          Node.js</div>
+        <div
+          class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 hover:text-white transition-all text-gray-300 font-medium duration-300">
+          Express.js</div>
+        <div
+          class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 hover:text-white transition-all text-gray-300 font-medium duration-300">
+          REST APIs</div>
+        <div
+          class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 hover:text-white transition-all text-gray-300 font-medium duration-300">
+          WebRTC</div>
+
+        <!-- Databases & Cloud -->
+        <div
+          class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 hover:text-white transition-all text-gray-300 font-medium duration-300">
+          MongoDB</div>
+        <div
+          class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 hover:text-white transition-all text-gray-300 font-medium duration-300">
+          Firebase</div>
+        <div
+          class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 hover:text-white transition-all text-gray-300 font-medium duration-300">
+          JWT Auth</div>
+
+        <!-- Tools & Workflows -->
+        <div
+          class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 hover:text-white transition-all text-gray-300 font-medium duration-300">
+          Postman</div>
+        <div
+          class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 hover:text-white transition-all text-gray-300 font-medium duration-300">
+          Git & GitHub</div>
+      </div>
+    </section>
+
+    <!-- Metrics Section -->
+    <section class="flex flex-col md:flex-row gap-8 p-5 md:p-10">
+      <div class="flex-1 bg-white/5 p-8 rounded-[20px] text-center border border-white/5">
+        <h3 class="text-[#7cf5c9] text-4xl font-bold mb-2">20+</h3>
+        <p class="text-gray-400">API Endpoints Built</p>
+      </div>
+      <div class="flex-1 bg-white/5 p-8 rounded-[20px] text-center border border-white/5">
+        <h3 class="text-[#7cf5c9] text-4xl font-bold mb-2">10+</h3>
+        <p class="text-gray-400">Projects Completed</p>
+      </div>
+      <div class="flex-1 bg-white/5 p-8 rounded-[20px] text-center border border-white/5">
+        <h3 class="text-[#7cf5c9] text-4xl font-bold mb-2">95%</h3>
+        <p class="text-gray-400">Auth Security Rate</p>
+      </div>
+    </section>
+
+    <!-- Projects Grid Section -->
+    <section id="projects" class="p-5 md:p-10">
+      <h2 class="text-3xl font-bold mb-10 pl-2">My Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- IRWCMS Extension -->
+        <div
+          class="bg-white/5 p-8 rounded-[22px] border border-white/5 hover:border-[#7cf5c9]/30 shadow-[0_25px_60px_rgba(124,245,201,0.02)] hover:shadow-[0_25px_60px_rgba(124,245,201,0.1)] transition-all group duration-300">
+          <h3 class="text-[#7cf5c9] text-xl font-bold mb-3">IRWCMS Extension</h3>
+          <p class="text-gray-400 mb-4 text-sm">SaaS Content Management platform built with secure <b>Firebase
+              Authentication</b> and integrated <b>Razorpay</b> gateway elements.</p>
+          <span
+            class="text-xs font-mono text-gray-400 group-hover:text-[#7cf5c9]/80 block mb-6 transition-colors">Node.js •
+            Next.js • Firebase</span>
+          <a href="https://irwcms-extension.web.app/"
+            class="inline-block bg-[#7cf5c9] text-black px-5 py-2 rounded-xl font-semibold text-sm hover:bg-[#62dbb0] transition-colors">Live
+            Demo</a>
         </div>
+
+        <!-- Hostel Mess Management -->
+        <div
+          class="bg-white/5 p-8 rounded-[22px] border border-white/5 hover:border-[#7cf5c9]/30 hover:shadow-[0_25px_60px_rgba(124,245,201,0.1)] transition-all group duration-300">
+          <h3 class="text-[#7cf5c9] text-xl font-bold mb-3">Hostel Mess System</h3>
+          <p class="text-gray-400 mb-4 text-sm">Comprehensive administrative ecosystem featuring meal voting panels,
+            dynamic student records, and complex manager dashboard controls.</p>
+          <span
+            class="text-xs font-mono text-gray-400 group-hover:text-[#7cf5c9]/80 block mb-6 transition-colors">Flutter •
+            Dart • Node.js • Express</span>
+          <a href="https://github.com/N-kumar36/Hostel_management"
+            class="inline-block bg-[#7cf5c9] text-black px-5 py-2 rounded-xl font-semibold text-sm hover:bg-[#62dbb0] transition-colors">View
+            Project</a>
+        </div>
+
+        <!-- MeetUp Online -->
+        <div
+          class="bg-white/5 p-8 rounded-[22px] border border-white/5 hover:border-[#7cf5c9]/30 hover:shadow-[0_25px_60px_rgba(124,245,201,0.1)] transition-all group duration-300">
+          <h3 class="text-[#7cf5c9] text-xl font-bold mb-3">MeetUp Online</h3>
+          <p class="text-gray-400 mb-4 text-sm">Video calling client application featuring robust real-time
+            <b>WebRTC</b> streams and structural Socket.io signaling protocols.
+          </p>
+          <span
+            class="text-xs font-mono text-gray-400 group-hover:text-[#7cf5c9]/80 block mb-6 transition-colors">Next.js •
+            Node.js • WebRTC</span>
+          <a href="https://meet-up-online.vercel.app/"
+            class="inline-block bg-[#7cf5c9] text-black px-5 py-2 rounded-xl font-semibold text-sm hover:bg-[#62dbb0] transition-colors">Live
+            Demo</a>
+        </div>
+
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="skills" class="p-10 md:p-15">
-    <h2 class="text-3xl font-bold mb-10">Technical Mastery</h2>
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
-      <div class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 transition-all">Node.js</div>
-      <div class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 transition-all">REST API</div>
-      <div class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 transition-all">JWT Token</div>
-      <div class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 transition-all">Express.js</div>
-      <div class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 transition-all">MongoDB</div>
-      <div class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 transition-all">Postman</div>
-      <div class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 transition-all">Next.js</div>
-      <div class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 transition-all">React</div>
-      <div class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 transition-all">Firebase</div>
-      <div class="bg-white/5 p-5 rounded-2xl text-center border border-white/5 hover:border-[#7cf5c9]/50 transition-all">WebRTC</div>
-    </div>
-  </section>
+  </main>
 
-  <section class="flex flex-col md:flex-row gap-8 p-10 md:p-15">
-    <div class="flex-1 bg-white/5 p-8 rounded-[20px] text-center border border-white/5">
-      <h3 class="text-[#7cf5c9] text-4xl font-bold mb-2">20+</h3>
-      <p class="text-gray-400">API Endpoints Built</p>
-    </div>
-    <div class="flex-1 bg-white/5 p-8 rounded-[20px] text-center border border-white/5">
-      <h3 class="text-[#7cf5c9] text-4xl font-bold mb-2">10+</h3>
-      <p class="text-gray-400">Projects</p>
-    </div>
-    <div class="flex-1 bg-white/5 p-8 rounded-[20px] text-center border border-white/5">
-      <h3 class="text-[#7cf5c9] text-4xl font-bold mb-2">95%</h3>
-      <p class="text-gray-400">Auth Security Rate</p>
-    </div>
-  </section>
-
-  <section id="projects" class="p-10 md:p-15">
-    <h2 class="text-3xl font-bold mb-4 text-center">My Projects</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      
-      <div class="bg-white/5 p-8 rounded-[22px] border border-[#7cf5c9]/30 shadow-[0_25px_60px_rgba(124,245,201,0.1)] group">
-        <h3 class="text-[#7cf5c9] text-xl font-bold mb-3">IRWCMS Extension</h3>
-        <p class="text-gray-400 mb-4 text-sm">SaaS platform with secure <b>Firebase Authentication</b> and Razorpay gateway.</p>
-        <span class="text-xs font-mono text-[#7cf5c9]/80 block mb-6">Node.js • Next Js • Firebase</span>
-        <a href="https://irwcms-extension.web.app/" class="inline-block bg-[#7cf5c9] text-black px-5 py-2 rounded-xl font-semibold text-sm">Live Demo</a>
-      </div>
-
-      <div class="bg-white/5 p-8 rounded-[22px] border border-white/5 hover:border-[#7cf5c9]/30 transition-all">
-        <h3 class="text-[#7cf5c9] text-xl font-bold mb-3">MeetUp Online</h3>
-        <p class="text-gray-400 mb-4 text-sm">Video chat app featuring real-time <b>WebRTC</b> and Socket.io signaling.</p>
-        <span class="text-xs font-mono text-gray-400 block mb-6">Next.js • Node.js • WebRTC</span>
-        <a href="https://meet-up-online.vercel.app/" class="inline-block bg-[#7cf5c9] text-black px-5 py-2 rounded-xl font-semibold text-sm">Live Demo</a>
-      </div>
-
-    </div>
-  </section>
-
-  <footer id="contact" class="bg-gradient-to-b from-[#05070a] to-[#0b0f14] py-16 px-5 text-center border-t border-[#7cf5c9]/20">
+  <!-- Footer Section -->
+  <footer id="contact"
+    class="bg-gradient-to-b from-[#05070a] to-[#0b0f14] py-16 px-5 text-center border-t border-[#7cf5c9]/20 mt-10">
     <h2 class="text-[#7cf5c9] text-3xl font-bold mb-4">Contact Me</h2>
     <p class="text-gray-300 mb-8 font-mono">nitya3666@gmail.com</p>
     <div class="flex flex-wrap justify-center gap-4 mb-10">
-      <a href="https://github.com/N-kumar36" target="_blank" class="border border-[#7cf5c9]/30 px-4 py-2 rounded-full text-sm hover:bg-[#7cf5c9] hover:text-black transition-all">GitHub</a>
-      <a href="https://wa.me/919064394702" target="_blank" class="border border-[#7cf5c9]/30 px-4 py-2 rounded-full text-sm hover:bg-[#7cf5c9] hover:text-black transition-all">WhatsApp</a>
-      <a href="#" class="border border-[#7cf5c9]/30 px-4 py-2 rounded-full text-sm hover:bg-[#7cf5c9] hover:text-black transition-all">LinkedIn</a>
+      <a href="https://github.com/N-kumar36" target="_blank"
+        class="border border-[#7cf5c9]/30 px-4 py-2 rounded-full text-sm hover:bg-[#7cf5c9] hover:text-black transition-all">GitHub</a>
+      <a href="https://wa.me/919064394702" target="_blank"
+        class="border border-[#7cf5c9]/30 px-4 py-2 rounded-full text-sm hover:bg-[#7cf5c9] hover:text-black transition-all">WhatsApp</a>
+      <a href="https://www.linkedin.com/in/nitya-kumar-barman-91360a333/"
+        class="border border-[#7cf5c9]/30 px-4 py-2 rounded-full text-sm hover:bg-[#7cf5c9] hover:text-black transition-all">LinkedIn</a>
     </div>
-    <p class="text-gray-500 text-xs">© 2026 Nitya Kumar Barman | Backend Engineer</p>
+    <p class="text-gray-500 text-xs">© 2026 Nitya Kumar Barman | Software Engineer</p>
   </footer>
-
 
   <script src="./script.js"></script>
 </body>
+
 </html>
