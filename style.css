@@ -9,12 +9,12 @@
   }
 }
 
-/* Ensure the nav container doesn't overflow on small screens */
+
 #navLinks {
   max-width: 90vw;
 }
 
-/* Active state glow for the current section */
+
 .nav-link.active {
   color: #7cf5c9 !important;
   border-color: #7cf5c9 !important;
