@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
+Disallow: /#home
+Disallow: /#about
+Disallow: /#skills
+Disallow: /#projects
+Disallow: /#contact
 
-Sitemap: https://nityakumar.web.app/app/sitemap.xml
+Sitemap: https://nityakumar.web.app/sitemap.xml
